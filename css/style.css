@@ -1,0 +1,979 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #001732;
+}
+
+p {
+    margin: 0;
+    color: #A5ADB7;
+    font-family: Lato, 'sans-serif';
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lato', 'sans-serif';
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+
+/* Banner */
+
+header.home {
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+#navbarNav ul li a {
+    color: #fff;
+    font-family: lato;
+    font-size: 15px;
+    transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+}
+
+#navbarNav ul li {
+    padding-left: 40px;
+}
+
+ul.navbar-nav.ms-auto li a:hover {
+    transform: translateY(-3px);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 244 240) !important;
+}
+
+header.inr ul li a {
+    color: #1A2F47 !important;
+}
+
+.inr .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #0071FE !important;
+}
+
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-position: center;
+}
+
+.banner_txt h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.banner_txt p {
+    color: #E2ECF9;
+    font-size: 20px;
+    margin: 16px 0 32px 0;
+}
+
+.banner_txt {
+    text-align: center;
+    max-width: 588px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 170px 0 655px;
+}
+
+section.money_add {
+    padding: 50px 0 0px 0;
+}
+
+
+/* why need of africash */
+
+.details_africash h1 {
+    color: #2055BB;
+    max-width: 410px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 64px;
+    position: relative;
+}
+
+.details_africash h1::after {
+    position: absolute;
+    background-image: url(../images/signel.svg);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    bottom: 47px;
+    content: '';
+}
+
+section.africash {
+    padding: 120px 0;
+    position: relative;
+}
+
+section.africash::after {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+    background-image: url(../images/wallet.svg);
+    right: 0;
+    top: 0;
+    width: 500px;
+    height: 700px;
+    background-size: contain;
+}
+
+.details_africash p {
+    color: #A5ADB7;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 24px;
+}
+
+.details_africash {
+    max-width: 680px;
+    width: 100%;
+}
+
+/* Send money */
+
+.money_transfer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/money_bg.svg);
+    position: relative;
+    padding: 120px 0;
+    background-position: center;
+}
+
+.tag p {
+    color: #0E50C4;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tag {
+    max-width: 102px;
+    width: 100%;
+    background-color: #E3E9F7;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5.5px 0;
+}
+
+.sending_details h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin: 32px 0 24px 0;
+    max-width: 430px;
+    width: 100%;
+}
+
+.money_transfer_detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sending_details p {
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 480px;
+}
+
+
+/* Pay Friends */
+
+.pay-friends {
+    padding: 120px 0;
+}
+
+/* Showcase */
+
+.showcase_bnr img {
+    width: 100%;
+}
+
+
+.add-friends {
+    background-color: #FBFBFB;
+}
+
+section.bill_payment {
+    text-align: center;
+}
+
+section.bill_payment .tag, section.bill_payment h1 {
+    margin: 0 auto;
+}
+
+section.bill_payment h1 {
+    padding: 24px 0 32px 0;
+}
+
+section.bill_payment {
+    padding: 120px 0 80px;
+}
+
+section.bill_payment .sending_details p {
+    max-width: 410px;
+}
+
+section.bill_payment .money_transfer_detail img {
+    margin-top: 60px;
+}
+
+.cta_sec {
+    background: linear-gradient(75.38deg, rgba(34, 193, 238, 0.3) -0.11%, rgba(14, 80, 196, 0.3) 97.68%), linear-gradient(0deg, #0E50C4, #0E50C4), #3EBFD1;
+    border-radius: 56px 56px 0px 56px;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.cta_sec h1 {
+    color: #fff;
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: 56px;
+    width: 100%;
+    padding-bottom: 54px;
+}
+
+.platform a:first-child {
+    margin-right: 16px;
+}
+
+/*=========================================
+                Inner head
+ =========================================*/
+.inner-banner-main {
+    position: relative;
+}
+
+.inner-banner-main img {
+    width: 100%;
+}
+
+.inner-banner-content {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translate(0, -40%);
+}
+
+.inner-banner-content h1 {
+    font-size: 150px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    fill: yellow;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #70A3E1;
+}
+
+.inner-banner-content h2 {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/*=========================================
+                Faq Page
+ =========================================*/
+.accordian-inner-main {
+    padding: 50px 100px;
+}
+
+.accordian-inner-main div.accordion-item {
+    border: 0px solid transparent;
+}
+
+.accordian-inner-main .accordion-button {
+    background-color: transparent;
+    box-shadow: unset;
+    border-bottom: 1px solid #E0E3E6;
+}
+
+.accordian-inner-main .accordion-button {
+    color: #001732;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 25px 0px 15px;
+}
+
+.accordian-inner-main .accordion-button:focus {
+    box-shadow: unset;
+}
+
+.accordian-inner-main .accordion-body {
+    padding: 15px 0px;
+}
+
+.accordian-inner-main .accordion-body p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.accordian-inner-main .accordion-button::after {
+    content: "";
+    background: unset;
+    background-image: url("../images/accordian-open.svg");
+    background-repeat: no-repeat;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/close-accordian.svg");
+    background-repeat: no-repeat;
+    transform: unset;
+}
+
+.question-inner {
+    background-color: #0E50C4;
+    padding: 87px 50px;
+    margin-top: 50px;
+    border-radius: 50px 50px 0px 50px;
+}
+
+.question-content {
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.question-content h3 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.question-content p {
+    font-size: 16px;
+    color: #70A1E0;
+    margin: 25px 0px;
+}
+
+a.custom-btn {
+    background-color: #fff;
+    color: #1A2F47;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 18px 45px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 700;
+    transition: .3s;
+}
+
+a.custom-btn:hover {
+    background-color: #1A2F47;
+    color: #fff;
+}
+
+/*======================================
+              About Page
+ ========================================*/
+.about-content {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #99A2AD;
+}
+
+.afri-app-sec {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 65px;
+    text-align: left;
+}
+
+.apps-store h3 {
+    margin-bottom: 45px;
+}
+
+.apps-store a {
+    margin-right: 10px;
+}
+
+.mob-app {
+    margin-top: 15px;
+    margin-bottom: -1px;
+}
+
+.question-inner.about-app-main {
+    padding: 0px;
+}
+
+/*==========================================
+                Contact Us
+ ===========================================*/
+.contact-main-sec {
+    padding-bottom: 70px;
+    background-color: #FBFBFB;
+    padding-top: 130px;
+    margin-top: -130px;
+}
+
+.contact-page .footer-inner {
+    margin-top: 0px;
+    border-top: 0px solid transparent;
+}
+
+.contact-content {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 32px;
+}
+
+.contact-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #97A0AB;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.contact-form .form-field label {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Lato, 'sans-serif';
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.contact-form .form-field input, .contact-form .form-field textarea {
+    border: 1px solid #b2b2b2;
+    box-shadow: unset;
+    color: #B2B2B2;
+    font-weight: 700;
+    font-family: Lato, 'sans-serif';
+    opacity: 1;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    outline: unset;
+    resize: none;
+}
+
+.form-field {
+    margin-bottom: 25px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #0E50C4;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Lato, 'sans-serif';
+    padding: 16px 33px;
+    border: 0px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #1A2F47;
+}
+
+/*======================================
+                Footer
+ ========================================*/
+.footer-inner {
+    padding: 70px 0px;
+    margin-top: 70px;
+    border-top: 1px solid #99A2AD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #99A2AD;
+    margin-top: 20px;
+}
+
+.footer-col-1 {
+    width: 100%;
+    max-width: 280px;
+}
+
+.footer-inner h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer-inner ul {
+    margin-top: 20px;
+}
+
+.footer-inner ul li a {
+    color: #001732;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+}
+
+.footer-inner ul li a:hover {
+    color: #0f55c6;
+}
+
+.footer-col-5 ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.copyright {
+    background-color: #0E50C4;
+    padding: 6px 0;
+}
+
+.copyright .copyright-content {
+    text-align: center;
+}
+
+.copyright .copyright-content p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Terms */
+
+.term_txt h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.term_txt h2 {
+    font-size: 22px;
+}
+
+.term_txt p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #757575;
+}
+
+.term_txt ul li {
+    list-style: disc;
+    margin: 20px;
+    color: #757575;
+}
+
+.term_txt h3 {
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+span.head {
+    font-weight: 700;
+    color: #000;
+    margin-right: 10px;
+}
+
+
+
+
+/* Media Querry */
+
+@media (min-width: 2100px) and (max-width: 2560px) {
+    section.africash::after {
+        top: 25px;
+    }
+
+    .banner_txt {
+        padding: 170px 0 1045px;
+    }
+}
+
+@media all and (max-width: 1920px) {
+    .banner_txt {
+        padding: 170px 0 665px;
+    }
+}
+
+@media all and (max-width: 1680px) {
+    .banner_txt {
+        padding: 170px 0 525px;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .banner_txt {
+        padding: 100px 0 450px;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .banner_txt {
+        padding: 100px 0 357px;
+        max-width: 458px;
+    }
+
+    .banner_txt h1 {
+        font-size: 36px;
+    }
+
+    .sending_details h1 {
+        font-size: 36px;
+    }
+
+    .details_africash h1 {
+        font-size: 36px;
+        max-width: 360px;
+    }
+
+    .details_africash h1::after {
+        bottom: 22px;
+    }
+
+    .details_africash p {
+        font-size: 18px;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .apps-store a {
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    section.africash::after {
+        top: 10%;
+        width: 420px;
+    }
+}
+
+
+@media all and (max-width: 991px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 50px;
+        background-color: #252532;
+        width: 100%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: transparent !important;
+        border-color: transparent !important;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../images/toggle_icon.svg) !important;
+        background-repeat: no-repeat;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 50px;
+        background-color: #252532;
+        width: 100%;
+    }
+
+    section.africash::after {
+        right: -20%;
+    }
+
+    ul.navbar-nav.ms-auto {
+        padding: 10px 0;
+    }
+
+    #navbarNav ul li {
+        padding: 0 20px;
+    }
+
+    .banner_txt {
+        padding: 120px 0 400px;
+    }
+
+    .inner-banner-content h1 {
+        font-size: 100px;
+    }
+
+    .inner-banner-content h2 {
+        font-size: 40px;
+    }
+
+    .accordian-inner-main {
+        padding: 10px 30px 50px;
+    }
+
+    .question-inner {
+        margin-top: 0px;
+    }
+
+    .afri-app-sec {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .apps-store {
+        padding-top: 50px;
+    }
+
+    .footer-inner {
+        flex-wrap: wrap;
+    }
+
+    .footer-inner [class*=footer-] {
+        max-width: 50%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-main-sec {
+        margin-top: -80px;
+    }
+
+    .pay-friends {
+        padding: 60px 0;
+    }
+
+    section.money_add {
+        padding: 50px 0 40px 0;
+    }
+
+    section.bill_payment {
+        padding: 60px 0;
+    }
+
+    section.bill_payment .money_transfer_detail img {
+        margin-top: 20px;
+    }
+
+    section.bill_payment h1 {
+        padding: 24px 0 20px 0;
+    }
+
+    section.africash::after {
+        width: 360px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    section.africash::after {
+        display: none;
+    }
+
+    .money_transfer {
+        background-image: none;
+        background-color: #FBFBFB;
+        padding: 60px 0;
+    }
+
+    section.money_add {
+        padding: 60px 0;
+    }
+
+    .add-friends {
+        background-color: #FBFBFB;
+        padding: 0 0 70px;
+    }
+
+    section.africash {
+        padding: 30px 0 60px;
+    }
+
+    .inner-banner-content h1 {
+        font-size: 65px;
+    }
+
+    .inner-banner-content h2 {
+        font-size: 28px;
+    }
+
+    .accordian-inner-main {
+        padding: 10px 0px 50px;
+    }
+
+    .accordian-inner-main .accordion-button {
+        font-size: 20px;
+    }
+
+    .accordian-inner-main .accordion-body p {
+        font-size: 18px;
+    }
+
+    .afri-app-sec {
+        padding: 0px 25px;
+    }
+
+    .pay-friends {
+        padding: 60px 0;
+    }
+
+    section.bill_payment {
+        padding: 60px 0;
+    }
+
+    section.bill_payment .money_transfer_detail img {
+        margin-top: 20px;
+    }
+
+    .cta_sec h1 {
+        max-width: 280px;
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+
+    .term_txt p {
+        font-size: 16px;
+    }
+
+    .term_txt h2 {
+        font-size: 18px;
+    }
+
+    .term_txt h1 {
+        font-size: 22px;
+        margin: 20px 0 20px 0;
+    }
+
+    .term_txt h3 {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .footer-inner {
+        padding: 20px 0px;
+    }
+
+    .footer-inner [class*=footer-] {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .question-content h3 {
+        font-size: 30px;
+    }
+
+    .question-inner {
+        padding: 40px 10px;
+    }
+
+    .apps-store h3 {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media all and (max-width: 460px) {
+    .inner-banner-content h1 {
+        font-size: 50px;
+    }
+
+    .inner-banner-content h2 {
+        font-size: 20px;
+    }
+
+    .apps-store h3 br {
+        display: none;
+    }
+
+    .banner_txt p {
+        font-size: 16px;
+    }
+
+    .banner_txt h1 {
+        font-size: 26px;
+        max-width: 290px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sending_details h1 {
+        font-size: 24px;
+    }
+
+    .sending_details h1 {
+        margin: 20px 0 10px 0;
+    }
+
+    .platform {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    section.money_add {
+        padding: 40px 0 60px;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+
+    .platform a:first-child {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .platform {
+        flex-direction: column;
+    }
+}
